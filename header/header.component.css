@@ -1,0 +1,57 @@
+.nav-item {
+  padding:2px;
+  margin-left: 7px;
+}
+.nav-link {
+  color: #623073 !important; 
+}
+.nav-logo {
+  max-width: 220px;
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+
+}
+
+.bg-blue {
+    /* background-color: #0033a0 !important; */
+    background-color: #f2f2f2 !important;  
+}
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+/* Stackoverflow preview fix, please ignore */
+.navbar-nav {
+  flex-direction: row;
+}
+
+.nav-link {
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #e2542f !important;
+}
+.display-none {
+  display: none !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #421853 !important;
+  color: #e2542f !important;
+}
+
+a:hover, a:visited {
+  text-decoration: none;
+  color: #421853 !important;
+}
+.dropdown-item > .active {
+  color: #e2542f !important;
+}
